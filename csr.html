@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kandha Consulting's commitments to local communities, ethical business, protecting children, and reducing landfill waste.">
+  <title>Corporate Social Responsibility | Kandha Consulting</title>
+  <style>
+    :root {
+      --burgundy: #701b3b;
+      --gold: #b78b45;
+      --text: #25242a;
+      --muted: #595760;
+      --background: #faf8f5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--burgundy);
+      color: #fff;
+      padding: 1.25rem max(1.5rem, calc((100% - 960px) / 2));
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header a:hover,
+    header a:focus-visible { text-decoration: underline; }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+
+    .eyebrow {
+      color: var(--burgundy);
+      font-size: .85rem;
+      font-weight: bold;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { line-height: 1.25; }
+
+    h1 {
+      color: var(--burgundy);
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      margin: .5rem 0 1.25rem;
+    }
+
+    h2 {
+      color: var(--burgundy);
+      font-size: 1.4rem;
+      margin: 0 0 .75rem;
+    }
+
+    .intro {
+      border-left: 4px solid var(--gold);
+      padding-left: 1.25rem;
+      font-size: 1.15rem;
+      margin: 0 0 2.5rem;
+    }
+
+    section {
+      background: #fff;
+      border: 1px solid #ece5df;
+      border-radius: 12px;
+      margin: 1rem 0;
+      padding: 1.5rem 1.75rem;
+    }
+
+    section p { margin: 0; }
+
+    .closing {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-top: 2.5rem;
+    }
+
+    footer {
+      border-top: 1px solid #e5ddd6;
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--burgundy); }
+
+    @media (max-width: 600px) {
+      main { padding-top: 2.5rem; }
+      section { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/">Kandha Consulting</a>
+  </header>
+
+  <main>
+    <p class="eyebrow">Our commitments</p>
+    <h1>Corporate Social Responsibility Manifesto</h1>
+
+    <p class="intro">
+      Kandha Consulting was founded in Canada with a belief that how we do
+      business matters as much as the work we deliver. We want our choices
+      to strengthen communities, respect people, and care for the planet.
+    </p>
+
+    <section>
+      <h2>Supporting a stronger local economy</h2>
+      <p>
+        When choosing businesses to work with and products to purchase,
+        we seek opportunities to support Canadian small businesses,
+        businesses owned and operated by Indigenous peoples, and businesses
+        owned and operated by women. We approach these relationships with
+        respect and a commitment to fair dealing.
+      </p>
+    </section>
+
+    <section>
+      <h2>Thoughtful Canadian sourcing</h2>
+      <p>
+        Our company swag is produced in Canada. We aim to keep the benefits
+        of our spending close to home while considering the materials and
+        waste involved in what we create.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Planet First approach</h2>
+      <p>
+        Our Planet First approach puts landfill waste reduction into
+        practice. We look for ways to reuse and repurpose materials that
+        might otherwise end up in landfills. When our electronic equipment
+        is worn out, we take it to electronics recycling bins at Best Buy
+        locations for responsible disposal. We will keep looking for
+        practical ways to reduce waste as Kandha grows.
+      </p>
+    </section>
+
+    <section>
+      <h2>Marketing with integrity</h2>
+      <p>
+        Our marketing should be honest, respectful, and consistent with
+        our values. We will not use misleading claims or exploit people,
+        cultures, or communities to promote our business.
+      </p>
+    </section>
+
+    <section>
+      <h2>Protecting the dignity and future of children</h2>
+      <p>
+        Children deserve safety, education, and the freedom to grow.
+        Kandha opposes child labour, exploitation, and practices that
+        harm children. We will not knowingly work with an organization
+        engaged in such practices.
+      </p>
+    </section>
+
+    <p class="closing">
+      These commitments guide the everyday decisions behind our work—from
+      the partners we choose to the materials we purchase and the promises
+      we make. As Kandha grows, we intend to grow our positive impact with it.
+    </p>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Kandha Consulting Inc. ·
+    <a href="/">Back to home</a>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
