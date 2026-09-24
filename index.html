@@ -795,23 +795,7 @@ The clients are from diverse industries such as Manufacturing, Insurance, Mining
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-<script>
-  window.addEventListener("load", function () {
-    if (window.location.hash === "#contact") {
-      setTimeout(function () {
-        const contact = document.getElementById("contact");
-        if (!contact) return;
 
-        const header = document.getElementById("header");
-        const headerHeight = header ? header.getBoundingClientRect().height : 0;
-        const contactTop =
-          contact.getBoundingClientRect().top + window.scrollY - headerHeight;
-
-        window.scrollTo({ top: contactTop, behavior: "instant" });
-      }, 300);
-    }
-  });
-</script>
 </body>
 
 </html>
