@@ -1832,3 +1832,16 @@ section {
     padding-top: 4px;
   }
 }
+
+/* Keep gallery thumbnails aligned without stretching the photos */
+.gallery .portfolio-img img,
+.gallery .portfolio-img video {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.gallery .portfolio-item {
+  margin-bottom: 30px;
+}
