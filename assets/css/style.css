@@ -1887,3 +1887,105 @@ section {
     width: 160px !important;
   }
 }
+
+/* ==========================================
+   KANDHA - MOBILE RESPONSIVE IMPROVEMENTS
+   Desktop layout remains unchanged
+   ========================================== */
+
+@media (max-width: 767px) {
+
+  /* 1. Compact mobile header */
+  #header {
+    padding: 8px 0 !important;
+    background: var(--silver);
+  }
+
+  #header .container {
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  #header .logo {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #header .logo img {
+    max-height: 75px !important;
+    width: auto !important;
+    padding: 0 !important;
+    display: block;
+  }
+
+  #header .mobile-nav-toggle {
+    font-size: 30px !important;
+    margin-left: 12px;
+  }
+
+  /* 2. Homepage hero positioning */
+  #hero {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 115px !important;
+    padding-bottom: 40px !important;
+    text-align: center;
+  }
+
+  #hero .container {
+    padding-top: 0 !important;
+  }
+
+  /* Allow homepage buttons to wrap */
+  #hero .col-lg-6 > .d-flex {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 12px;
+  }
+
+  #hero .btn-watch-video {
+    margin: 0 !important;
+  }
+
+  /* 3. Keep Emerging Partner badge centered */
+  #hero .emerging-partner-badge {
+    width: 100%;
+    margin-top: 28px !important;
+    text-align: center !important;
+  }
+
+  #hero .emerging-partner-badge img {
+    width: 150px !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 4. More compact mobile Gallery */
+  .gallery .portfolio-img img,
+  .gallery .portfolio-img video {
+    display: block;
+    width: 100%;
+    height: 200px !important;
+    object-fit: contain;
+  }
+
+  .gallery .portfolio-item {
+    margin-bottom: 22px !important;
+  }
+
+  /* Remove unnecessary spacing */
+  .gallery .portfolio-item > br {
+    display: none;
+  }
+
+  .gallery .portfolio-info {
+    margin-top: 10px;
+  }
+
+  .gallery .portfolio-info h6 {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+
+}
