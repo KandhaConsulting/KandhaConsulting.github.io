@@ -1845,3 +1845,28 @@ section {
 .gallery .portfolio-item {
   margin-bottom: 30px;
 }
+
+/* Dayforce Emerging Partner Badge */
+#hero .emerging-partner-badge {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#hero .emerging-partner-badge img {
+  width: 227px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 991px) {
+  #hero .emerging-partner-badge {
+    margin-top: 30px;
+  }
+
+  #hero .emerging-partner-badge img {
+    width: 190px;
+  }
+}
